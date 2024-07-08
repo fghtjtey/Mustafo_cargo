@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="../css/registration.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <form id="registrationForm" class="form">
+            <h1 class="form-title">Регистрация</h1>
+            <div class="form-group">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="form-label">Пароль:</label>
+                <input type="password" id="password" name="password" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone" class="form-label">Номер телефона:</label>
+                <input type="tel" id="phone" name="phone" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="city" class="form-label">Город:</label>
+                <input type="text" id="city" name="city" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" id="agree" name="agree" class="form-checkbox" required>
+                <label for="agree" class="form-label form-checkbox-label">Я согласен с пользовательским соглашением</label>
+            </div>
+
+            <button type="submit" class="form-button">Зарегистрироваться</button>
+        </form>
+    </div>
+    <script src="../js/registration.js"></script>
+</body>
+</html>
