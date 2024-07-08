@@ -636,6 +636,7 @@ input {
     .hero {
         padding-top: 10rem;
         padding-bottom: 14rem;
+        background-size: contain;
     }
     .hero-title {
         font-size: 3.2rem;

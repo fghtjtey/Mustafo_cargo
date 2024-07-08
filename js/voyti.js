@@ -19,4 +19,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Пример генерации уникального кода для клиента
     const clientCodeElem = document.getElementById('clientCode');
     if (clientCodeElem) {
-        clientCodeElem.textContent = 'CL' + Math.floor(Math.random() * 1000000).toString().padStart(6, '0'
+        clientCodeElem.textContent = 'CL' + Math.floor(Math.random() * 1000000).toString().padStart(6, '0');
+    }
